@@ -65,4 +65,4 @@ Python 3.9+, numpy, torch (CPU), matplotlib, pandas — see `requirements.txt`.
 
 ## Author
 
-Bagmbaye Aggée — Dalian University of Technology
+Bagmbaye Aggée — MSc Dalian University of Technology
