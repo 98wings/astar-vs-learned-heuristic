@@ -1,0 +1,7 @@
+dataset size:            22371 (train=17897, val=4474)
+epochs run:               100 / 100 (patience=10)
+best val MSE:             11.0305
+final val MAE:            2.3352
+val h* mean:              29.3782
+training wall-time:       176.18 s
+model saved to:           C:\Users\ing Aggee\Desktop\AI-PROJECT\Code\results\model_50x50.pt

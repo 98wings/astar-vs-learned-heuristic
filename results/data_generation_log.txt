@@ -1,0 +1,8 @@
+maps generated:        200
+grid size:              50x50
+obstacle density:       0.25
+seed:                   42
+total (state, h*) pairs: 22371
+h* mean / std:          29.243 / 15.462
+data generation wall-time: 3.49 s
+saved to:               C:\Users\ing Aggee\Desktop\AI-PROJECT\Code\results\training_data_50x50.npz
