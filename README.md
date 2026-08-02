@@ -61,7 +61,7 @@ python test_gate4.py   # results.csv integrity checks (row counts, no NaNs, admi
 
 ## Requirements
 
-Python 3.9+, numpy, torch (CPU), matplotlib, pandas — see `requirements.txt`.
+Python 3.9+, numpy, torch (CPU), matplotlib, pandas see `requirements.txt`.
 
 ## Author
 
