@@ -6,7 +6,7 @@ pathfinding at three scales (10x10, 50x50, 100x100).
 
 The neural heuristic is trained **only** on 50x50 maps; the 10x10 and 100x100
 runs are an out-of-distribution transfer test. The same `astar()` implementation
-runs all three heuristics unmodified — it never knows which one it is using.
+runs all three heuristics unmodified it never knows which one it is using.
 
 ## Key findings
 
@@ -15,7 +15,7 @@ runs all three heuristics unmodified — it never knows which one it is using.
   problems it was tested on in this run.
 - Node count and wall-clock time disagree on a winner at 10x10: the neural
   heuristic expands fewer nodes than Manhattan there, but is ~30x slower in
-  wall-clock time — a "rigged metric" effect that a nodes-only comparison
+  wall-clock time a "rigged metric" effect that a nodes-only comparison
   would miss entirely.
 - Full methodology, related work, and discussion are in the companion report
   (see `docs/`).
