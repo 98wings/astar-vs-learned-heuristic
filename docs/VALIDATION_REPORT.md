@@ -26,7 +26,7 @@
 
 **Confident**: the violation-rate numbers; the metric-divergence result; no wall-clock crossover up to 100×100; transfer degradation; training cost 176.18 s + 3.49 s data generation [R5] time enough for Manhattan to solve ~127,000 50×50 problems.
 
-**Limitations**: n = 30/size, one seed, one trained model (val MAE 2.34 ≈ 8% of mean h* = 29.38); unbatched Python inference inflates per-call cost (compiled/batched settings would change constants, not structure); violation rates from 500-node samples; unit-cost 4-connected grids have many co-optimal paths, which — together with the reopening A* variant plausibly masks suboptimality; single domain.
+**Limitations**: n = 30/size, one seed, one trained model (val MAE 2.34 ≈ 8% of mean h* = 29.38); unbatched Python inference inflates per-call cost (compiled/batched settings would change constants, not structure); violation rates from 500-node samples; unit-cost 4-connected grids have many co-optimal paths, which together with the reopening A* variant plausibly masks suboptimality; single domain.
 
 ## 4. Numbers for Section 5
 
